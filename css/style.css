@@ -1,0 +1,322 @@
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+html {
+    font-family: Muller;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h4, h2, h6 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.first-screen {
+    background: url("../img/background.jpg");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mainheadcont {
+    width: 1150px;
+    padding: 30px 15px 0;
+    margin: 0 auto;
+}
+.firstinhead {
+    display: flex;
+}
+
+.informhead {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: auto auto auto;
+}
+
+.textlogo {
+    font-size: 25px;
+    display: flex;
+    color: #46b1de;
+    justify-content: center;
+}
+
+.mainheadr {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.mainlink {
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+
+.maintele {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.imgphone {
+    padding-right: 8px;
+}
+
+.telephone {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.midllecont{
+    margin: 180px 0 0 0;
+}
+h1 {
+    font-size:40px;
+}
+
+.maincon {
+    color: #46b1de;
+}
+.mainbutton {
+    margin: 60px 0 0 10px;
+}
+.callbutton {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #46b1de;
+    color: white;
+    margin-right: 100px;
+    font-size: 20px;
+    padding: 15px 40px;
+}
+.servicebutton {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+    color: #46b1de;
+    font-size: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+footer {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.fotterfirst {
+    border: 1px solid black;
+    background-color: white;
+    margin: 0 0 0 60px;
+    z-index: 2;
+    display: flex;
+}
+.cifra {
+    display: inline-block;
+    color: #46b1de;
+    font-size: 65px;
+    padding: 10px 10px;
+    font-weight: bold;
+    
+}
+.textforcifra {
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+}
+.ladyphoto {
+    position: absolute;
+    z-index: 1;
+    bottom: -90px;
+    right: 160px;
+}
+.footerconteiner {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.secont {
+    margin-top: 40px;
+}
+
+.secont {
+    margin-top: 10px;
+}
+
+.therd {
+    margin-top: 17px;
+}
+.secontscreen {
+    padding-top: 200px;
+
+}
+.maininfobody {
+    background-color: #A1C7D4;
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 20px;
+    max-width: 1020px;
+    border-radius: 8px;
+}
+
+.whyme {
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+.whyme span {
+    color: #46b1de;
+}
+
+.infobody {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+    
+}
+
+.textcont {
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 180px;
+}
+
+.textcont div {
+    font-size: 40px;
+    margin: 0 10px 20px 0;
+
+}
+
+.maintext {
+    color: #46b1de;
+    display: flex;
+}
+h2 {
+    font-weight: bold;
+}
+
+.underground {
+    padding: 40px 0 20px 0;
+    background: linear-gradient(-90deg, #0780AA, #A1C7D4);
+    margin-top: 40px;
+}
+
+.lustcont {
+    width: 1150px;
+    padding: 30px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstinunder {
+    display: flex;
+
+    display: flex;
+    color: #0F2D4A;
+    justify-content: center;
+}
+.firstinunder span {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.linkid {
+    color: #0F2D4A;
+    text-decoration: none;
+    
+}
+.mainlinked {
+    padding: 30px 0 30px 0;
+}
+.langue {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+.timework {
+    color: #0F2D4A;
+    margin-top: 46px;
+}
+.timework span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.fitstcont {
+    justify-content: space-between;
+    display: flex;
+}
+.changelang {
+    padding-top: 30px;
+}
+
+.contact-inform {
+    padding-right: 200px;
+    color: white;
+}
+.contact-inform img {
+    width: 26px;
+}
+.mycontacts {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.nameof {
+    margin-bottom: 20px;
+}
+.mainadress {
+    margin-bottom: 20px;
+}
+.contfirst {
+    display: flex;
+}
+.linktoinform {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.contsecond {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between;
+     было бы красивее )) */
+
+}
+.contsecond a{
+    margin-right: 20px;
+}
+
+.nameinstag {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.nameiemail {
+    font-size: 18px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.copiright {
+    margin-top: 20px;
+    text-align: end;
+    font-size: 10px;
+}
