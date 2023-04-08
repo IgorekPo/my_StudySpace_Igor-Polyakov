@@ -133,10 +133,17 @@ footer {
 }
 .ladyphoto {
     position: absolute;
-    z-index: 1;
-    bottom: -90px;
-    right: 160px;
+    width: 572px;
+    height: 530.77px;
+    left: 718px;
+    top: 143px  
 }
+.ladyphoto img{
+    top: 18.58px;
+    position: absolute;
+    left: 70px;
+}
+
 .footerconteiner {
     display: grid;
     gap: 35px;
